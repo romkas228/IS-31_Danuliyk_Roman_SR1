@@ -1,0 +1,57 @@
+#t06 th, #t06 td{
+    padding: 100 px;
+}
+#t05 th{
+    text-align: center;
+}
+#t04{
+    border: 1px solid white;
+    border-collapse: separate;
+
+}
+
+#t04 td,#t04 th{
+    border-style: dotted;
+}
+#t03{
+    border: 1px solid white;
+    border-collapse: separate;
+
+}
+
+#t03 td, #t03 th{
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+#t02  td, #t02 th{
+    background-color: aqua;
+    border: 1px solid white;
+   
+}
+
+#t01 tr:nth-child(odd) {
+     background-color: #fff;
+}
+#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+#t01{
+    width: 60%;
+}
+table, th, td{
+  border: 1px solid; 
+  border-collapse: collapse; 
+}
+th, td{
+padding: 15px;  
+}
+table{
+    border-spacing: 5px;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

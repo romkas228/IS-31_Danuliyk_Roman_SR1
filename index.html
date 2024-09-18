@@ -3,16 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SR1</title>
+    <link rel="icon" type="image/x-icon" href="/Image/favicon.ico">
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    <main></main>
-    <h1>Header</h1>
-    <p>Text</p>
-    <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BE_%D0%A1%D0%B8%D0%BD%D0%BD">Link</a>
-    <h1>Image</h1>
-    
+    <header>   
+    <h1>Самостійна робота №1</h1>
+    <h2>Виконав студент групи ІС-31 Данилюк Роман</h2>
+    <h2>Мета: придбати практичні навички роботи  з HTML-документом, таблицями, , зображеннями, посиланнями, списками,формами.</h2>
+    <br>
+    <br>
+    </header>
+
+
+    <main>
+    <h1 style="color: blue;" id="C13">1.3 HTML Основні приклади.</h1>
+    <h1>Headers</h1>
+    <h2>Headers</h2>
+    <h3>Headers</h3>
+    <h4>Headers</h4>
+    <h5>Headers</h5>
+    <h6>Headers</h6>
+    <br>
+    <p>Параграф</p>
+    <p>Інший Параграф</p>
+    <br>
+    <a href="https://kpi.ua/">Посилання</a>
+    <h2>image</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEWWSMS7YSFwr01LvZ3yk0pv64mgAAkUZXgw&s" alt="">
+    <br>    
+    <br>
     <button>Button</button>
+
     <h1>Num List</h1>
     <ol>
         <li>first</li>
@@ -25,7 +48,21 @@
         <LI>SECOND</LI>
         <LI>THIRD</LI>
     </ul>
+
+
+    <h1 style="color: blue;">1.4 HTML Елементи</h1>
     <p>Це параграф<br> з обривом рядка.</p>
+
+
+    <h1 style="color: blue;">1.5 HTML Атрибути.</h1>
+    <p style="color:red">Це параграф червоного кольору.</p>
+    <p title='Я виринаюча підказка'>
+        Це параграф.
+    </p>
+
+    <h1 style="color: blue;">1.6 HTML Параграфи.</h1>
+
+    <p>Цей<br>параграф<br>має розриви рядка.</p>
     <pre>
         І ось ідем у бою життєвому.
       
@@ -34,6 +71,662 @@
         Бо плач не дав свободи ще нікому,
       
         А хто борець, той здобуває світ.
-      </pre>
+    </pre>
+
+
+
+    <h1 style="color: blue;">1.7 HTML Посилання</h1>
+    <a href="https://www.w3schools.com/html/">HTML уроки для початківців онлайн</a>
+    <br>
+    <h2> Атрибут target</h2>
+    <a href="https://www.w3schools.com/" target="_blank">Відкриває пов’язаний документ в новому вікні або вкладці</a>
+    <br>
+    <a href="https://www.w3schools.com/" target="_self">Відкриває пов’язаний документ в тому ж вікні / вкладці, в якому він був натиснутий (за замовчуванням)</a>
+    <br>
+    <a href="https://www.w3schools.com/" target="_parent">Відкриває пов’язаний документ в батьківському фреймі</a>
+    <br>
+    <a href="https://www.w3schools.com/" target="_top">Відкриває пов’язаний документ в повному тілі вікна</a>
+    <br>
+    <br>
+    <h2> Зображення як посилання</h2>
+    <a href="https://kpi.ua/">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEWWSMS7YSFwr01LvZ3yk0pv64mgAAkUZXgw&s" alt="">
+    </a>
+    <h2> Атрибут Title - Підказка для посилань</h2>
+    <a href="https://kpi.ua/" title="Офіційний сайт КПІ" >KPI</a>
+    <h2>HTML Посилання - Як створити закладку</h2>
+    <a href="#C13">Перейти до розділу 1.3 HTML Основні приклади.</a>
+    <br>
+
+
+    <h1 style="color: blue;">1.8 HTML Зображення</h1>
+    <h2>Атрибут alt</h2>
+    <img src="img_chania.jpg" alt="Image wasn't finded">
+    <h2>Розмір зображення - Width та Height - Ширина та Висота</h2>
+    <img src="https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid" width="500" height="500" alt="">
+    <h2>Плаваюче зображення</h2>
+    <p><img src="https://img.freepik.com/free-photo/purple-osteospermum-daisy-flower_1373-16.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1726444800&semt=ais_hybrid" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        Зображення буде плавати ліворуч від тексту.
+    </p>
+    <br>
+
+    <h2 style="color: red;">1.8.1 HTML Карти зображень</h2>
+    <img src="https://w3schoolsua.github.io/images/workplace.jpg" alt="Workplace"  usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" href="https://ru.wikipedia.org/wiki/%D0%9D%D0%BE%D1%83%D1%82%D0%B1%D1%83%D0%BA" alt="Laptop">
+        <area shape="circle" coords="337,300,44" onclick="myFunction()">  
+    </map>
+    <script>
+        function myFunction() {
+            alert("You clicked on cup of coffe");
+        }
+    </script>
+
+    <h2 style="color: red;">1.8.2 HTML Фонові зображення</h2>
+    <div style="background-image: url(https://t3.ftcdn.net/jpg/02/62/71/08/360_F_262710803_CAKuDCLCdRsNLRhyI6hollZZmQrziJrk.jpg);">
+        Цей текст має фон
+    </div>
+     
+    <h2 style="color: red;">1.8.3 HTML елемент picture </h2>
+    <picture>
+        <source media="(min-width: 650px)" srcset="https://img.freepik.com/free-photo/tasty-burger-isolated-white-background-fresh-hamburger-fastfood-with-beef-cheese_90220-1063.jpg">
+        <source media="(min-width: 465px)" srcset="https://t3.ftcdn.net/jpg/02/60/12/88/360_F_260128861_Q2ttKHoVw2VrmvItxyCVBnEyM1852MoJ.jpg">
+        <img src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141352.jpg">
+    </picture>
+    <h2 style="color: red;">1.8.4 HTML Favicon / Фавікон </h2>
+    <img src="Image/favicon.ico" width="100px" height="100px" alt="">
+    <br>
+    <br>
+
+    <h1 style="color: blue;">1.9 HTML Таблиці</h1>
+    <table width="50%">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+    </table>
+    <br>
+    <h2>HTML Таблиця - Чарунка, що охоплює кілька стовпців</h2>
+    <table width="50%">
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+        </tr>   
+        <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+        </tr>
+    </table>
+    <h2>HTML Таблиця - Чарунка, яка охоплює багато рядків</h2>
+    <table width="50%">
+        <tr>
+            <th>Name</th>
+            <td>Bill Gates</td>
+        </tr>
+        <tr>
+            <th rowspan="2">Telephone</th>
+            <td>55577854</td>
+        </tr>
+        <tr>
+            <td>55577855</td>
+        </tr>
+    </table>
+    <h2>HTML Таблиця - Додати підпис</h2>
+    <table style="width: 50%;">
+        <caption>Monthly savings</caption>
+        <tr>
+            <th>Mounth</th>
+            <th>Saving</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>100$</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>50$</td>
+        </tr>
+    </table>
+    <h2>Спеціальний стиль для однієї таблиці</h2>
+    <table id="t01">
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>28</td>
+        </tr>
+    </table>
+    <h2 style="color: red;">1.9.1 HTML Межі таблиці </h2>
+    <br>
+    <h2>Стилізація меж таблиці</h2>
+    <table id="t02" style=" width: 50%; ">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>Закруглені межі таблиці </h2>
+    <table id="t03" style=" width: 50%; ">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>Пунктирні межі таблиці</h2>
+    <table id="t04" style=" width: 50%;  ">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2 style="color: red;">1.9.2 HTML Розмір таблиці </h2>
+    <h2>HTML Ширина стовпців таблиці</h2>
+    <table style="width: 100%;">
+        <tr>
+            <th style="width: 70%;"></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2>HTML Висота рядка таблиці</h2>
+    <table style="width: 100%;">
+        <tr>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr style="height: 200px;">
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <h2 style="color: red;">1.9.3 Заголовки таблиць </h2>
+    <h2>Заголовки таблиці по вертикалі</h2>
+    <table style="width: 50%;">
+        <tr>
+          <th>Ім'я</th>
+          <td>Jill</td>
+          <td>Eve</td>
+        </tr>
+        <tr>
+          <th>Прізвище</th>
+          <td>Smith</td>
+          <td>Jackson</td>
+        </tr>
+        <tr>
+          <th>Вік</th>
+          <td>94</td>
+          <td>50</td>
+        </tr>
+    </table>
+    <h2>Вирівнювання заголовків таблиці</h2>
+    <table id="t05" style="width: 50%;">
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Вік</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>28</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>50</td>
+        </tr>
+    </table>
+    <h2>Заголовок для кількох стовпців</h2>
+    <table style="width: 50%;">
+        <tr>
+          <th colspan="2" >Ім'я</th>
+          <th>Вік</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+    </table>
+    <h2>Заголовок (підпис) таблиці</h2>
+    <table style="width:50%">
+        <caption>Щомісячна економія</caption>
+        <tr>
+          <th>Місяць</th>
+          <th>Економія</th>
+        </tr>
+        <tr>
+          <td>Січень</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>Лютий</td>
+          <td>$50</td>
+        </tr>
+    </table>
+    <h2 style="color: red;">1.9.4 HTML Таблиці. Padding & Spacing.</h2>
+    <table id="t06" style="width: 50%;">
+        <tr>
+          <th>Ім'я</th>
+          <td>Jill</td>
+          <td>Eve</td>
+        </tr>
+        <tr>
+          <th>Прізвище</th>
+          <td>Smith</td>
+          <td>Jackson</td>
+        </tr>
+        <tr>
+          <th>Вік</th>
+          <td>94</td>
+          <td>50</td>
+        </tr>
+    </table>
+    <h2 style="color: red;">1.9.4 HTML Таблиці. Padding & Spacing.</h2>
+    
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="2" style="background-color: aqua;">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+    </table>
+    <h2>Кілька елементів Col</h2>
+    <table style="width: 100%;">
+        <colgroup>
+          <col span="2" style="background-color: #D6EEEE">
+          <col span="3" style="background-color: pink">
+        </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+    </table>
+    <h2>Приховати стовпці</h2>
+    <table style="width: 100%;">
+        <colgroup>
+            <col span="2">
+            <col span="3" style="visibility: collapse">
+          </colgroup>
+        <tr>
+          <th>MON</th>
+          <th>TUE</th>
+          <th>WED</th>
+          <th>THU</th>
+          <th>FRI</th>
+          <th>SAT</th>
+          <th>SUN</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+          <td>6</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>9</td>
+          <td>10</td>
+          <td>11</td>
+          <td>12</td>
+          <td>13</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>16</td>
+          <td>17</td>
+          <td>18</td>
+          <td>19</td>
+          <td>20</td>
+          <td>21</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+          <td>27</td>
+          <td>28</td>
+        </tr>
+    </table>
+    <h1 style="color: blue;">1.10 HTML Списки.</h1>
+    <h2>Невпорядкований HTML Список</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Невпорядкований HTML Список - оберіть маркер елемента списка</h2>
+    <ul style="list-style-type:circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Впорядкований HTML Список - Атрибут Type</h2>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="A">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <ol type="I">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>HTML Списки опису</h2>
+    <dl>
+        <dt>Кава</dt>
+        <dd>- чорний гарячий напій</dd>
+        <dt>Молоко</dt>
+        <dd>- білий холодний напій</dd>
+    </dl>
+    <h2>Вкладені HTML-списки</h2>
+    <ul>
+        <li>Кава</li>
+        <li>Чай
+          <ul>
+            <li>Чорний чай</li>
+            <li>Зелений чай</li>
+          </ul>
+        </li>
+        <li>Молоко</li>
+    </ul>
+    <h2>Підрахунок контрольного списку</h2>
+    <ol start="50">
+        <li>Кава</li>
+        <li>Чай</li>
+        <li>Молоко</li>
+    </ol>
+    <h1 style="color: blue; ">2.1 HTML Форми.</h1>
+    <h2>Введення тексту</h2>
+    <form>
+        Ім'я: <br>
+        <input type="text" name="firstname"><br>
+        Прізвище: <br>
+        <input type="text" name="lastname">
+
+    </form>
+    <h2>Радіо кнопка введення</h2>
+    <form >
+        <input type="radio" name="gender" value="male">Чоловік <br>
+        <input type="radio" name="gender" value="woman">Жінка <br>
+        <input type="radio" name="gender" value="other">Інше
+    </form>
+    <h2>Кнопка Submit / Надіслати</h2>
+    <form action='/action_page.html'>
+        Ім’я:<br>
+        <input type='text' name='firstname' value='Mickey'><br>
+        Прізвище:<br>
+        <input type='text' name='lastname' value='Mouse'><br><br>
+        <input type='submit' value='Надіслати'>
+    </form>
+    <h2>Групування даних форми </h2>
+    <form action='/action_page.html'>
+        <fieldset style="width: 50%;">
+          <legend>Особиста інформація:</legend>
+          Ім’я:<br>
+          <input type='text' name='firstname' value='Mickey'><br>
+          Прізвище:<br>
+          <input type='text' name='lastname' value='Mouse'><br><br>
+          <input type='submit' value='Надіслати'>
+        </fieldset>
+    </form>
+    <h2 style="color: red;">2.1.2 HTML Елементи форми</h2>
+    <h2>Елемент select</h2>
+    <form action="" >
+        Car:
+        <select name="cars" id="" size="4" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="bmw">BMW</option>
+            <option value="fiat" selected>Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+    <h2>Елемент textarea</h2>
+    <form action="">
+        <textarea name="message" rows="10" cols="30">The cat was playing in the garden.
+        </textarea>
+    </form>
+    <h2>Елемент button</h2>
+    <form action="">
+        <button type="button" onclick="alert('Слава Україні!')">Click me</button>
+    </form>
+    <h2>HTML5 елемент datalist </h2>
+    <form action="/action_page.html">
+        <input list="browsers">
+        <datalist id="browsers">
+          <option value="Internet Explorer">
+          <option value="Firefox">
+          <option value="Chrome">
+          <option value="Opera">
+          <option value="Safari">
+        </datalist>
+    </form>
+    <h2>HTML5 елемент output</h2>
+    <form action="/action_page.html"
+    oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    0
+    <input type="range"  id="a" name="a" value="50">
+    100 +
+    <input type="number" id="b" name="b" value="50">
+    =
+    <output name="x" for="a b"></output>
+    <br><br>
+    <input type="submit">
+  </form>
+  <h2 style="color: red;">2.1.4 HTML Атрибути введення</h2>
+  <h2>Атрибут readonly (тільки для читання)</h2>
+  <form action="">
+    Ім’я:<br>
+     <input type="text" name="firstname" value="John" readonly>
+   </form>
+   <h2>Атрибут disabled (відключено)</h2>
+   <form action="">
+    Ім’я:<br>
+    <input type="text" name="firstname" value="John" disabled>
+  </form>
+  <h2>Атрибут size (розмір)</h2>
+  <form action="">
+    Ім’я:<br>
+     <input type="text" name="firstname" value="John" size="40">
+   </form>
+   <h2>Атрибут maxlength (максимальна довжина)</h2>
+   <form action="">
+    Ім’я:<br>
+     <input type="text" name="firstname" maxlength="10">
+   </form>
+   <h2 style="color: red;">HTML Приклади</h2>
+   <h2>Розділова лінія</h2>
+   <h1>Header</h1>
+   <hr>
+   <h1>Header</h1>
+   <h2>Розмір тексту</h2>
+   <h1 style="font-size: 300%;">Text</h1>
+   <h2>Вирівнювання</h2>
+   <h1 style="font-size: 300%; text-align: center;">Text</h1>
+   <h2 style="color: red;">Форматування тексту</h2>
+   <p><b>Цей текст жирний.</b></p>
+   <p><strong>Цей текст виділений strong.</strong></p>
+   <p><i>Цей текст курсивом.</i></p>
+   <p><em>Цей текст підкреслюється (віділяється, має більшу важливість).</em></p>
+   <h2>HTML <small>Small</small> форматування</h2>
+   <h2>HTML форматування за допомогою <mark>маркування</mark></h2>
+   <p>Елемент del визначає видалений (вилучений) текст.</p>
+    <p>Мій улюблений колір <del>синій</del> червоний.</p>
+    <p>Елемент ins визначає вставлений (доданий) текст.</p>
+    <p>Мій улюблений <ins>колір</ins> червоний.</p>
+    <p>Цей текст в <sub>нижньому</sub> індексі (підрядковий).</p>
+    <p>Цей текст в <sup>верхньому</sup> індексі (надрядковий).</p>
+   
+
+
+
+</main>
+    
 </body>
 </html>
